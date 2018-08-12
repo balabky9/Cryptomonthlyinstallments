@@ -1,0 +1,51 @@
+<html>
+    <head>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type ="text/javascript" src="pack.js"/></script>
+        <!-- <script type="text/javascript" src="test2.js"/></script> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                   
+
+                </div>
+            </div>
+        </div><div class="form-horizontal">
+                <fieldset>
+                
+                <!-- Form Name -->
+                <legend>Loan Request</legend>
+                
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="tenure">Tenure</label>  
+                  <div class="col-md-4">
+                  <input id="tenure" name="tenure" type="text" placeholder="(in months)" class="form-control input-md">
+                    
+                  </div>
+                </div>
+                
+                <!-- Button -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="reqLoan"></label>
+                  <div class="col-md-4">
+                    <button id="reqLoan" name="reqLoan" class="btn btn-primary">Generate Loan Order</button>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                        <label class="col-md-4 control-label" for="textarea">Loan Request Output</label>
+                        <div class="col-md-4">                     
+                          <textarea class="form-control" id="loanreqbox" name="textarea"></textarea>
+                        </div>
+                      </div>
+                
+                </fieldset>
+            </div>
+                
+    </body>
+</html>
